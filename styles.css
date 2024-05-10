@@ -1,0 +1,206 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #E9E7E6;
+}
+.navbar{
+    position: fixed;
+    background: linear-gradient(to right, #E9E7E6,#E9E7E6,#E9E7E6, #535C91);
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+#navbar h2{
+    font-family: "Roboto Slab", serif;
+    color: #070F2B;
+    font-style: normal;
+}
+#navbar img {
+    margin-right: 3px; 
+    width: 50px;
+    height: 50px;
+}  
+#navbar .navbar-nav .nav-link {
+    font-family: "Roboto Slab", serif;
+    color: #E9E7E6;
+}
+#navbar .navbar-nav .nav-link:hover {
+    color: #9290C3;
+}
+#navbar .navbar-brand:hover {
+    color: #9290C3;
+}
+#navbar .navbar-brand {
+    font-family: "Roboto Slab", serif;
+    color: #070F2B;
+}
+#navbar .navbar-toggler-icon {
+    background-color: #535C91; 
+    border-color: #535C91; 
+    border-style: solid; 
+    border-width: 1px; 
+    border-radius: 20%;
+}
+#contact {
+    border-color: #000000 ;
+    padding: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+}
+#contact h2{
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    color: #535C91;
+}
+#contact p{
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    color: #535C91;
+}
+#contact img{
+    border-radius: 13px;
+} 
+.copy-right {
+    color: #3D3D3D; 
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact-info {
+    font-family: "Roboto Slab", serif;
+    color: #535C91;
+    font-size: 16px;
+}
+#navbar .dropdown-menu {
+    background: linear-gradient(to right, #E9E7E6,#E9E7E6,#E9E7E6, #535C91);
+    border: none;
+    border-radius: none;
+}
+#navbar .dropdown-menu a {
+    font-family: "Roboto Slab", serif;
+    color: #070F2B; 
+    font-size: 16px; 
+    transition: all 0.3s ease;
+    animation: slideDown 0.5s ease;
+}
+#navbar .dropdown-menu a:hover {
+    background-color: #535C91;
+}
+#navbar .navbar-toggler {
+    border: none;
+}
+#navbar .navbar-toggler-icon {
+    background-color: #3D3D3D;
+}
+#navbar .navbar-nav .nav-link {
+    color: #070F2B;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+#navbar .navbar-nav .nav-link:hover {
+    color: #76ABAE;
+}
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+hr{
+    width: 100%; 
+}
+.middle-line {
+    border-top-width: 1px; 
+    border-top-color: #070F2B; 
+}
+.pertanyaan {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #070F2B;
+    border-radius: 5px;
+}
+.jawaban {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid #070F2B;
+    border-radius: 5px;
+}
+
+.jawaban h3 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 10px;
+    border: 2px solid #070F2B;
+    border-radius: 5px;
+}
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #76ABAE;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: #535C91;
+}
+#headingAsk button {
+    background-color: #76ABAE;
+    color: white;
+    font-weight: bolder;
+}
+#ask{
+    color: #E9E7E6;
+    background-color: #1B1A55;
+}
+#headingAsk button:hover {
+    background-color: #535C91;
+    font-weight: bolder;
+}
+#ask label {
+    font-family: "Roboto Slab", serif;
+    color: #76ABAE;
+}
+#sec1, #sec3 {
+    width: 100%;
+    background-color: #535C91;
+    margin-bottom: 20px;           
+}  
+#sec1 h2, #sec3 h2 {
+    font-family: "Roboto Slab", serif;
+    color: #f9f9f9; 
+}
+  
+#sec1,  #sec3 {
+    width: 100%;
+    margin: 0 auto; 
+}
+#bar{
+    width: 100%;
+}
+.form-control {
+    width: 80%;
+    margin: auto; 
+}
+
+   
